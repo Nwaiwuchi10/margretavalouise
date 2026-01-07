@@ -9,7 +9,7 @@ import menu_black from "../assets/menu-black.png";
 import menu_white from "../assets/menu-white.png";
 import close_black from "../assets/close-black.png";
 import close_white from "../assets/close-white.png";
-
+import pdf from "../assets/profile.pdf";
 const Navbar = () => {
   const sideMenuRef = useRef();
   const navRef = useRef();
@@ -81,6 +81,12 @@ const Navbar = () => {
       document.documentElement.classList.add("dark"); // default dark
     }
   }, []);
+  const downloadPortfolio = () => {
+    const link = document.createElement("a");
+    link.href = pdf;
+    link.download = "MargretAvalouise-Portfolio.pdf";
+    link.click();
+  };
 
   return (
     <>
@@ -123,6 +129,11 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#work">My Work</a>
+          </li>
+          <li>
+            <a onClick={downloadPortfolio} style={{ cursor: "pointer" }}>
+              My portfolio
+            </a>
           </li>
           <li>
             <a href="#contact">Contact me</a>
@@ -190,6 +201,11 @@ const Navbar = () => {
           <li>
             <a href="#work" onClick={closeMenu}>
               My Work
+            </a>
+          </li>
+          <li>
+            <a onClick={downloadPortfolio} style={{ cursor: "pointer" }}>
+              My portfolio
             </a>
           </li>
           <li>

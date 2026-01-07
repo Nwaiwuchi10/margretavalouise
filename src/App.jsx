@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 
 import WhyInvest from "./components/WhyInvest";
+import TestimonialSlider from "./components/Testmonial";
 // import TradingTicker from "./components/TradingTicker/TradingTicker";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Services />
       <WhyInvest />
       <Work />
+      <TestimonialSlider />
       <Contact />
       <Footer />
     </>

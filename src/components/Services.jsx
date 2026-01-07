@@ -1,9 +1,9 @@
-import web_icon from "../assets/web-icon.png";
-import mobile_icon from "../assets/mobile-icon.png";
-import ui_icon from "../assets/ui-icon.png";
-import graphics_icon from "../assets/graphics-icon.png";
+import web_icon from "../assets/bitcoin_8.png";
+import mobile_icon from "../assets/bitcoin_9.png";
+import ui_icon from "../assets/cryptocurrency6.png";
+import graphics_icon from "../assets/bitcoinLogo.png";
 import right_arrow from "../assets/right-arrow.png";
-
+import videoL from "../assets/cryptovideo.mp4";
 const Services = () => {
   return (
     <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
@@ -12,7 +12,7 @@ const Services = () => {
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         I am an investment advisor with over 16 years of experience, dealing and
         investing in crypto currency and other related financial markets. She is
-        a very professional stock broker who executes financial transactions to
+        a very professional crypto broker who executes financial transactions to
         registered securities broker.
       </p>
 
@@ -85,6 +85,28 @@ const Services = () => {
             Read more <img src={right_arrow} alt="" className="w-4" />
           </a>
         </div>
+      </div>
+
+      <div className="w-full mt-16 flex flex-col items-center">
+        <h3 className="text-3xl font-Ovo mb-6 text-center">
+          Watch My Investment Strategy Overview
+        </h3>
+
+        <div className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-lg">
+          <video
+            className="w-full h-full object-cover"
+            controls
+            // poster="/crypto-video-cover.jpg"
+          >
+            <source src={videoL} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <p className="text-center max-w-2xl mx-auto mt-5 font-Ovo  dark:text-white/80">
+          A quick introduction to how I help clients invest safely and
+          profitably in the cryptocurrency markets.
+        </p>
       </div>
     </div>
   );

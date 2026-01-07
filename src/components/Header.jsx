@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-6 pt-32 px-4">
+    <div className="w-full text-md text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-6 pt-32 px-4">
       {/* Hero Image */}
       <div className="w-full mx-auto">
         <img
@@ -43,8 +43,8 @@ const Header = () => {
         <p className="max-w-2xl mx-auto font-Ovo mt-4">
           I am a seasoned investment advisor with over 16 years of experience in
           cryptocurrency and other financial markets. I am also a highly
-          professional stockbroker, skilled in executing financial transactions
-          through registered securities brokers.
+          professional crypto broker, skilled in executing financial
+          transactions through registered securities brokers.
         </p>
       </div>
 
