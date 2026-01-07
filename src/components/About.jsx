@@ -27,7 +27,7 @@ const About = () => {
           {/* Text Content – Back to Original Fonts */}
           <div className="flex-1 text-left">
             <p className="mb-10 max-w-2xl font-Ovo">
-              With over 16 years of experience in the financial markets, Margret
+              With over 17 years of experience in the financial markets, Margret
               Ava Louise has established herself as a renowned crypto trading
               expert. At 53 years old, she has spent the better part of two
               decades honing her skills and building a reputation for astute

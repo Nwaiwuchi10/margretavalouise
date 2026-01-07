@@ -10,7 +10,7 @@ const Services = () => {
       <h4 className="text-center mb-2 text-lg font-Ovo">What i offer</h4>
       <h2 className="text-center text-5xl font-Ovo">My services</h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        I am an investment advisor with over 16 years of experience, dealing and
+        I am an investment advisor with over 17 years of experience, dealing and
         investing in crypto currency and other related financial markets. She is
         a very professional crypto broker who executes financial transactions to
         registered securities broker.

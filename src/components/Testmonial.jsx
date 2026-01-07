@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import test1 from "../assets/test1.jpg";
 import test2 from "../assets/test2.jpg";
-import test3 from "../assets/test3.jpeg";
+import test3 from "../assets/test3.jpg";
 import test4 from "../assets/test4.jpg";
 import test5 from "../assets/test5.jpg";
 

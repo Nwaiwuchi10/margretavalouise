@@ -41,7 +41,7 @@ const Header = () => {
         </h1>
 
         <p className="max-w-2xl mx-auto font-Ovo mt-4">
-          I am a seasoned investment advisor with over 16 years of experience in
+          I am a seasoned investment advisor with over 17 years of experience in
           cryptocurrency and other financial markets. I am also a highly
           professional crypto broker, skilled in executing financial
           transactions through registered securities brokers.
