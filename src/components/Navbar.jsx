@@ -102,10 +102,10 @@ const Navbar = () => {
         className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50"
       >
         <span className="w-28 text-xl cursor-pointer mr-14 dark:hidden">
-          Magret Ava Louise
+          Margret Ava Louise
         </span>
         <span className="w-28 cursor-pointer mr-14 hidden dark:block text-xl">
-          Magret Ava Louise
+          Margret Ava Louise
         </span>
         {/* <img src={logo} alt="Logo"
         className="w-28 cursor-pointer mr-14 dark:hidden" />
