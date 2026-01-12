@@ -1,4 +1,4 @@
-import why_invest_img from "../assets/avalousise.jpg";
+import why_invest_img from "../assets/service.jpg";
 const WhyInvest = () => {
   return (
     <div className="w-full text-center mx-auto py-16 px-[10%] scroll-mt-20">

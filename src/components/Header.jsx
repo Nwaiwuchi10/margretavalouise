@@ -1,4 +1,4 @@
-import profile_img from "../assets/margretAva.jpg";
+import profile_img from "../assets/hero.jpg";
 import right_arrow_white from "../assets/right-arrow-white.png";
 import whatsapp from "../assets/whatsapp.png";
 import "./Hero.css";

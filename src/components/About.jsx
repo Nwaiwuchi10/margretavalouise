@@ -1,4 +1,4 @@
-import user_image from "../assets/margretavalouise.jpg";
+import user_image from "../assets/about.jpg";
 
 const About = () => {
   return (
