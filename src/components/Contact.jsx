@@ -20,7 +20,7 @@ const Contact = () => {
     }));
   };
 
-  // Submit handler (WhatsApp integration)
+  // Submit handler (Telegram integration)
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -34,15 +34,15 @@ const Contact = () => {
 
     setResult("Sending...");
 
-    const whatsappNumber = PhoneNumber; // No '+' for wa.me links
+    const telegramNumber = PhoneNumber; // Phone number with '+'
     const textMessage = `Hello, my name is ${formData.firstName}. My email is ${formData.email}. Here's my message: ${formData.message}`;
 
-    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+    const telegramURL = `https://t.me/${telegramNumber}?text=${encodeURIComponent(
       textMessage
     )}`;
 
-    window.open(whatsappURL, "_blank");
-    setResult("Message sent! Redirecting to WhatsApp...");
+    window.open(telegramURL, "_blank");
+    setResult("Message sent! Redirecting to Telegram...");
     e.target.reset();
     setFormData({ firstName: "", email: "", message: "" });
   };
