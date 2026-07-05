@@ -1,14 +1,15 @@
 import profile_img from "../assets/hero.jpg";
 import right_arrow_white from "../assets/right-arrow-white.png";
-import telegram from "../assets/telegram.svg";
+import whatsapp from "../assets/whatsapp.png";
 import "./Hero.css";
 import { PhoneNumber } from "./PhoneNumber";
 
 const Header = () => {
   const phoneNumber = PhoneNumber;
 
-  const TelegramClick = () => {
-    const url = `https://t.me/${phoneNumber}`;
+  const WhatsAppClick = () => {
+    const cleanNumber = phoneNumber.replace(/[^\d]/g, "");
+    const url = `https://wa.me/${cleanNumber}`;
     window.open(url, "_blank");
   };
 
@@ -58,13 +59,13 @@ const Header = () => {
         </a>
       </div>
 
-      {/* Telegram Icon */}
+      {/* WhatsApp Icon */}
       <div className="whatsapp-img-div mt-6">
         <div
           className="whatsapp-img-size cursor-pointer"
-          onClick={TelegramClick}
+          onClick={WhatsAppClick}
         >
-          <img src={telegram} alt="telegram" className="whatsapp-img" />
+          <img src={whatsapp} alt="whatsapp" className="whatsapp-img" />
         </div>
       </div>
     </div>
